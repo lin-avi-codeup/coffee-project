@@ -1,3 +1,9 @@
+.page-wrap {
+    background: linear-gradient(
+            158deg
+            , navajowhite, #5a4e3c);
+}
+
 table {
     border-collapse: collapse;
     margin: 15px 0;
@@ -6,4 +12,83 @@ table {
 td, th {
     border: 1px solid black;
     padding: 5px 10px;
+}
+
+.container {
+    display: flex;
+}
+
+.form-group {
+    margin: 3em;
+    width: 40vw;
+}
+
+.drink-boys  {
+    flex-flow: row wrap;
+    border-style: none;
+}
+
+.search-boys {
+    flex-direction: column;
+}
+
+.header {
+    text-align: center;
+}
+
+.new-coffee {
+    padding-left: 1.4em;
+    padding-top: 1em;
+    font-family: 'Pacifico', cursive;
+    color: darkslategrey;
+    text-shadow: -2px 2px 3px slategrey;
+
+}
+
+.coffee-column {
+    flex-flow: row wrap;
+}
+
+.card {
+    font-family: 'Cormorant Garamond', serif;
+    background: transparent !important;
+    text-align: center;
+    border-color: white;
+    width: 12em;
+    height: 6em;
+    padding-top: 1em;
+}
+
+#coffees {
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+}
+
+.btn {
+    margin: 1em 0;
+}
+
+.jumbotron {
+    background-image: url("photo-1518800383600-44551b3c739c.jpeg");
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 3px solid #2f4f4f!important;
+}
+
+.jumboHeader {
+    justify-content: center;
+    font-family: 'Pacifico', cursive;
+    color: darkslategrey;
+    text-shadow: -2px 2px 3px slategrey;
+
+}
+.jumbotron .container {
+    position: relative;
+>>>>>>> 97a0bdcb3395176ac967192ca543529fd4f0780a
+
 }
